@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FUSGA</string>
+    <string name="et_email">Correo electrónico</string>
+    <string name="et_pass">Contraseña</string>
+    <string name="Button1">Ingresar</string>
+    <string name="Button2">Registrarme</string>
+    <string name="iv_logo2">logo2</string>
+    <string name="iv_logo1">logo1</string>
+    <string name="tv_version">version 1.0</string>
+</resources>
