@@ -1,6 +1,7 @@
 package com.example.fusga_v1;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -17,18 +18,25 @@ public class MainActivity extends AppCompatActivity {
 
     private ImageView iv_logo1;
     private TextView tv_version;
+    public ConstraintLayout backPrincipal;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        backPrincipal=(ConstraintLayout)findViewById(R.id.backPrincipal);
+
         iv_logo1 = (ImageView)findViewById(R.id.iv_logo1);
         tv_version = (TextView) findViewById(R.id.tv_version);
+
         /*
            Parámetro (fullscreen)
          */
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
+
         /*
            Crear una instancia(de objeto) de animaciones
          */
@@ -48,5 +56,10 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         },2000);
+
+
+
+
     }
+
 }

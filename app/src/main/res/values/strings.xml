@@ -7,4 +7,5 @@
     <string name="iv_logo2">logo2</string>
     <string name="iv_logo1">logo1</string>
     <string name="tv_version">version 1.0</string>
+    <string name="temaSwitch">tema</string>
 </resources>
